@@ -16,6 +16,8 @@ public class UiStoreBabies : MonoBehaviour
     [Header("Control UI store")]
     [SerializeField] TextMeshProUGUI textActualCoinPlayer;
     [SerializeField] GameObject gameObjectButtonBuy;
+    [SerializeField] GameObject gameObjectFactory;
+    [SerializeField] GameObject gameObjectStore;
 
     int m_lastIndex = 0;
     DataBaby lastDataBaby = null;
@@ -51,7 +53,14 @@ public class UiStoreBabies : MonoBehaviour
         {
             ControlCoin.Instance.SetCoinSubstractValue(lastDataBaby.GetPriceBaby());
             ControlDataBetweenScenes.Instance.AddNewDataBaby(lastDataBaby);
-            ControlSlotInformation.Instance.BuyNewBabyForSlotMain(lastDataBaby);
+
+            gameObjectFactory.SetActive(true);
+
+            ControlSlotInformation.Instance.ReturnToFactory(lastDataBaby);
+
+            gameObjectStore.SetActive(false);
+
+
             gameObjectButtonBuy.SetActive(false);
             DesactiveControlBabyByIndex(m_lastIndex);
             print("Comprar el " + m_lastIndex);

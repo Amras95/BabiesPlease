@@ -17,9 +17,9 @@ public class ControlSlotInformation : MonoBehaviour
     ControlDataBetweenScenes controlBetweenScenes;
     int actualLevel = 0;
 
-    int m_lastTime = 1;
+    float m_lastTime = 1;
     int m_lastIndexSlotMainNeedBaby = 0;
-    float m_time = 0;
+    int m_time = 0;
     bool m_CantCountTimeInTheGame = false;
 
     private void Awake()
@@ -55,10 +55,11 @@ public class ControlSlotInformation : MonoBehaviour
     private void Update()
     {
         if (m_CantCountTimeInTheGame) return;
-        m_time += Time.deltaTime;
-        if (m_time > m_lastTime) {
-            m_lastTime =(int) m_time;
-            NewTimeToVerify.Invoke(m_lastTime);
+        m_lastTime += Time.deltaTime;
+        if (m_lastTime > 1) {
+            m_lastTime = 0;
+            m_time += 1;
+            NewTimeToVerify.Invoke(m_time);
         }
     }
 
@@ -66,10 +67,6 @@ public class ControlSlotInformation : MonoBehaviour
     {
         m_CantCountTimeInTheGame = true;
         m_lastIndexSlotMainNeedBaby = index;
-    }
-
-    public void BuyNewBabyForSlotMain(DataBaby NewDataBaby) {
-        allSlotsMain[m_lastIndexSlotMainNeedBaby].SetNewDataBaby(NewDataBaby);
     }
 
     /*private void OnDisable()
@@ -81,9 +78,10 @@ public class ControlSlotInformation : MonoBehaviour
         }
     }*/
 
-    public void ReturnToFactory()
+    public void ReturnToFactory(DataBaby NewDataBaby)
     {
         m_CantCountTimeInTheGame = false;
+        allSlotsMain[m_lastIndexSlotMainNeedBaby].SetNewDataBaby(NewDataBaby);
         /*List<DataBaby> newListDataBabies = controlBetweenScenes.GetAllBabiesBuy();
 
         for (int i = 0; i < newListDataBabies.Count && i < allSlotsMain.Length; i++) {
