@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc294ea07db693d42bb688cfe92feaf8, type: 3}
+  m_Name: Chat Principal
+  m_EditorClassIdentifier: 
+  TextChats:
+  - "T: Secuestrarte de esa est\xFApida conferencia de game design fue tan f\xE1cil,
+    nadie estaba mirando. Por lo que se de vos, crees que pod\xE9s sobrevivir ac\xE1
+    solamente creando videojuegos. Ja, no me hagas re\xEDr. Tus incre\xEDbles videojuegos
+    no te salvaran en nuestro frio y desolado pa\xEDs. Si queres recuperar tu libertad,
+    vas a tener que pagar y solo hay una forma de hacer dinero honrado y honesto
+    en la Madre Patria, esclavitud infantil. As\xED que anda al almac\xE9n y ll\xE9nanos
+    de Putincoins y tal vez te dejemos ir.\r\nL 1: Nunca voy a caer tan bajo como
+    para usar ni\xF1os esclavos.\r\nL 2: Tus simples amenazas no podr\xE1n detenerme.\r\nL
+    3: \xBFMe dejar\xEDas ir si te paso una key de Junior Solutions?\r\nT: Ja, sos
+    tan gracioso hombre dise\xF1ador, ahora c\xE1llate y haznos llover Putincoins
+    antes de que llame a mis amigos.\r\n"
+  - "T: Veo que te has instalado y ya aprendiste a hacer Putincoins. Me alegro mucho
+    por ti y espero que nos podamos convertir en grandes amigos dentro de las pr\xF3ximas
+    semanas.\r\nL: \xBFSemanas?\r\nT: Por su puesto, \xBFacaso cre\xEDste que esto
+    iba a ser algo de una vez nada m\xE1s?\r\nL: Osea, ten\xEDa esa esperanza.\r\nT:
+    JAJAJAJAJAJAJAJAJAJAJAAJAJAJAJA.\r\nL: \u2026\r\nT: Ahhh, hombre de los videojuegos
+    porque no intentas meterte a la comedia, tienes mucho futuro.\r\n"
+  - "T: Buenas tardes se\xF1or prisionero, \xBFC\xF3mo lo trata la vida en este maravilloso
+    d\xEDa?\r\nL: \xBFEnserio?\r\nT: Sipi sipi.\r\nL: He estado mejor, gracias.\r\nT:
+    No hace falta tener esa cara larga, hoy es el mejor d\xEDa de la semana: d\xEDa
+    de paga. No entiendo como puede alguien estar tan malhumorado en un d\xEDa tan
+    bello y lleno de vida como este.\r\nL: Por favor agarra los Putincoins y andate,
+    me est\xE1s dando escalofr\xEDos.\r\n"
+  - 
+  - 
+  - 
