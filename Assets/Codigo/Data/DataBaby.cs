@@ -7,6 +7,7 @@ public class DataBaby : ScriptableObject
 {
     [SerializeField] Sprite spriteBaby;
     [SerializeField] int priceBaby = 0;
+    [SerializeField] int timeWorkBaby = 0;
     [SerializeField] string textNameBaby;
     [TextArea][SerializeField] string textInformation;
 
@@ -17,5 +18,7 @@ public class DataBaby : ScriptableObject
     public string GetNameBaby() => textNameBaby;
 
     public int GetPriceBaby() => priceBaby;
+
+    public int GetTimeWorkBaby() => timeWorkBaby;
 
 }

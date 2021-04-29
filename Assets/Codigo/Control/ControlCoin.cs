@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,10 +6,10 @@ using UnityEngine;
 public class ControlCoin : MonoBehaviour
 {
     public static ControlCoin Instance = null;
+    public Action<int> NewCoinUpdate = delegate { };
 
     [Header("Principal var")]
     [SerializeField] private int m_initialCoin = 0;
-    [SerializeField]
 
     private int _coin = 0;
 
@@ -16,22 +17,25 @@ public class ControlCoin : MonoBehaviour
 
     private void Awake()
     {
-        DontDestroyOnLoad(gameObject);
+       // DontDestroyOnLoad(gameObject);
         Instance = this;
 
         Coin = m_initialCoin;
-    }
-
-    void Start()
-    {
 
     }
 
     public void SetCoinSubstractValue(int newValueSubstract)
     {
         Coin -= newValueSubstract;
-
+        ActiveEventCoin();
     }
 
+    public void SetCoinAugmentValue(int newValueSubstract)
+    {
+        Coin += newValueSubstract;
+        ActiveEventCoin();
+    }
+
+    private void ActiveEventCoin() => NewCoinUpdate.Invoke(Coin);
 
 }
