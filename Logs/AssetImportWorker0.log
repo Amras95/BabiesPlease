@@ -1,0 +1,122 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19041.928; Version 2004; 64bit' Language: 'es' Physical Memory: 32682 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Unity\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Babies Please/BabiesPlease
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64661
+Successfully changed project path to: D:/Babies Please/BabiesPlease
+D:/Babies Please/BabiesPlease
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 78.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
+[Subsystems] Discovering subsystems at path D:/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Babies Please/BabiesPlease/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 980M (ID=0x13d7)
+    Vendor:   
+    VRAM:     4053 MB
+    Driver:   27.21.14.6589
+Initialize mono
+Mono path[0] = 'D:/Unity/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56940
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009438 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 52.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.023 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002553 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 57.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.670 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1869 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.3 MB.
+System memory in use after: 88.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2312.
+Total: 3.090200 ms (FindLiveObjects: 0.334100 ms CreateObjectMapping: 0.201300 ms MarkObjects: 2.384300 ms  DeleteObjects: 0.169200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/escenas/Menu_Principal.unity
+  artifactKey: Guid(726e455371d51b54dad284c9595e889e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/escenas/Menu_Principal.unity using Guid(726e455371d51b54dad284c9595e889e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d66ac887002c9c80638a5f95956e979') in 0.027021 seconds
+  Import took 0.034880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Scenes/escenas/Juego.unity
+  artifactKey: Guid(9415e0a7329c07445a74a91f71aa33b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/escenas/Juego.unity using Guid(9415e0a7329c07445a74a91f71aa33b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '967879c60847f03140b8adcd22523c1d') in 0.013499 seconds
+  Import took 0.019957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.769365 seconds.
+  path: Assets/Codigo/Data/DataBaby.cs
+  artifactKey: Guid(9859bb492cd56b2448ce753c0d6f7cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigo/Data/DataBaby.cs using Guid(9859bb492cd56b2448ce753c0d6f7cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b17dc546a7d59bbbf241e95ff09c07') in 0.086540 seconds
+  Import took 0.092206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.339496 seconds.
+  path: Assets/Data/Baby1.asset
+  artifactKey: Guid(ad04c7185a49a6d4b95d0f5990040399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/Baby1.asset using Guid(ad04c7185a49a6d4b95d0f5990040399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9353dc38abf348211f8113d2e30ed42') in 0.018416 seconds
+  Import took 0.023439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.158588 seconds.
+  path: Assets/Data/PrincSlotsInScene.asset
+  artifactKey: Guid(6247e8fe5afa7ff4d9505fe3ebf84ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/PrincSlotsInScene.asset using Guid(6247e8fe5afa7ff4d9505fe3ebf84ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9fd3c03405f16e2da842a6824071e8d') in 0.010260 seconds
+  Import took 0.014856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002067 seconds.
+  path: Assets/Data/PrincSlotsInScene.asset
+  artifactKey: Guid(6247e8fe5afa7ff4d9505fe3ebf84ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/PrincSlotsInScene.asset using Guid(6247e8fe5afa7ff4d9505fe3ebf84ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9fd3c03405f16e2da842a6824071e8d') in 0.005180 seconds
+  Import took 0.010533 seconds .
+
