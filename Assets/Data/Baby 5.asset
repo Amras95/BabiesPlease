@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteBaby: {fileID: 21300000, guid: 13e65e6ce4a07794a88199e02dbe1a4a, type: 3}
   priceBaby: 5
+  timeWorkBaby: 10
   textNameBaby: "Peque\xF1o"
   textInformation: Este bebe es jesucristo

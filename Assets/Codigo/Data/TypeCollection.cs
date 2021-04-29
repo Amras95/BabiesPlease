@@ -18,7 +18,7 @@ public class TypeCollection : ScriptableObject
         return 0;
     }
 
-    public int GetMaxLevel() => rewardCoinByItem.Length;
+    public int GetMaxLevel() => rewardCoinByItem.Length-1;
 
     public string GetNameTypeCollection() => nameItemCollection;
 
