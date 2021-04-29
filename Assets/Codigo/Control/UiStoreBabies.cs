@@ -23,6 +23,7 @@ public class UiStoreBabies : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
         //verify which is purchased
         BoolSaveDataBaby = ControlDataBetweenScenes.Instance.BoolSaveDataBaby;
 
@@ -31,9 +32,6 @@ public class UiStoreBabies : MonoBehaviour
                 DesactiveControlBabyByIndex(i);
             }
         }
-
-        //update ui
-        UpdateDataInUIPlayer();
     }
 
     public void ActivatedDescriptionWithIndex(int index) {
@@ -53,15 +51,11 @@ public class UiStoreBabies : MonoBehaviour
         {
             ControlCoin.Instance.SetCoinSubstractValue(lastDataBaby.GetPriceBaby());
             ControlDataBetweenScenes.Instance.AddNewDataBaby(lastDataBaby);
+            ControlSlotInformation.Instance.BuyNewBabyForSlotMain(lastDataBaby);
             gameObjectButtonBuy.SetActive(false);
-            UpdateDataInUIPlayer();
             DesactiveControlBabyByIndex(m_lastIndex);
             print("Comprar el " + m_lastIndex);
         }
-    }
-
-    private void UpdateDataInUIPlayer() {
-        textActualCoinPlayer.text = ControlCoin.Instance.Coin.ToString();
     }
 
     private void DesactiveControlBabyByIndex(int index) => controlDataBaby[index].gameObject.SetActive(false);
