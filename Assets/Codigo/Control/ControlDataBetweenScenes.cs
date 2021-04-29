@@ -18,4 +18,6 @@ public class ControlDataBetweenScenes : MonoBehaviour
     public void AddNewDataBaby(DataBaby NewDataBaby) {
         dataBabies.Add(NewDataBaby);
     }
+
+    public List<DataBaby> GetAllBabiesBuy() => dataBabies;
 }
