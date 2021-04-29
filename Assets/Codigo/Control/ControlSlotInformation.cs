@@ -25,6 +25,17 @@ public class ControlSlotInformation : MonoBehaviour
         allSlotsMain = dataSlotsMainInScene.allSlotsMain;
     }
 
+    int m_lastTime = 1;
+    float m_time = 0;
+
+    private void Update()
+    {
+        m_time += Time.deltaTime;
+        if (m_time > m_lastTime) {
+            m_lastTime =(int) m_time;
+        }
+    }
+
     /*private void OnDisable()
     {
         //control slot when upgrade
