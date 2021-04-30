@@ -11,6 +11,7 @@ public class ChatManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI textLimitTime;
     [SerializeField] TextMeshProUGUI textChat;
     [SerializeField] DataChats dataChat;
+    [SerializeField] AudioSource audioSource;
 
     int indexLastChat = 0;
     // Start is called before the first frame update
@@ -24,11 +25,14 @@ public class ChatManager : MonoBehaviour
         {
             IWin.Invoke();
             NewConversationWin();
+
             return;
         }
+
         textLimitTime.gameObject.SetActive(false);
         textChat.text = dataChat.GetTextChat(indexLastChat);
         indexLastChat++;
+        Invoke("ActiveAudio", 0.1f);
     }
 
     public void NewConversationLost() {
@@ -40,5 +44,9 @@ public class ChatManager : MonoBehaviour
     {
         textLimitTime.gameObject.SetActive(false);
         textChat.text = dataChat.GetTextWin();
+    }
+
+    private void ActiveAudio() {
+        audioSource.Play();
     }
 }

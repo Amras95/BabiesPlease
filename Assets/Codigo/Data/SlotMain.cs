@@ -24,6 +24,7 @@ public class SlotMain : MonoBehaviour
     [Header("Menu")]
     [SerializeField] GameObject controlMenuSlot = null;
     [SerializeField] GameObject ButtonUpgrade = null;
+    [SerializeField] AudioSource audioSourceUpgrades;
 
     DataBaby dataBaby;
     TypeCollection ActualTypeCollection;
@@ -66,6 +67,7 @@ public class SlotMain : MonoBehaviour
 
                 m_levelActual++;
                 UpdateTextInGenerationByWork();
+                audioSourceUpgrades.Play();
                 if (m_levelActual >= ActualTypeCollection.GetMaxLevel()) {
                     textActualValueToUpgrade.text = "Max";
                 }
@@ -95,13 +97,14 @@ public class SlotMain : MonoBehaviour
 
         print(ActualTypeCollection.GetNameTypeCollection());
         imageCollectionItemWork.sprite = ActualTypeCollection.GetSpriteCollection();
+        textActualValueToUpgrade.text = counSlotToUpgrade.ToString();
         //more things
     }
 
     public void SetNewDataBaby(DataBaby newData) {
         dataBaby = newData;
         imageBabyWork.sprite = newData.GetSpriteBaby();
-        imageCollectionItemWork.sprite = ActualTypeCollection.GetSpriteCollection();
+
         textActualName.text = newData.GetNameBaby();
         SetTimeGeneration();
 
@@ -114,6 +117,8 @@ public class SlotMain : MonoBehaviour
             ResetCollectionDataLevel();
             textActualValueToUpgrade.text = counSlotToUpgrade.ToString();
         }
+
+        imageCollectionItemWork.sprite = ActualTypeCollection.GetSpriteCollection();
     }
 
     private void NewRewardPrice() {
