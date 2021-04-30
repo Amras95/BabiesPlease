@@ -10,13 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9859bb492cd56b2448ce753c0d6f7cd9, type: 3}
-  m_Name: Baby 3
+  m_Name: Baby 8
   m_EditorClassIdentifier: 
   spriteBaby: {fileID: 21300000, guid: a6bc5b1ba94adf24cb24583988089ab9, type: 3}
-  priceBaby: 5
-  timeWorkBaby: 10
-  textNameBaby: Artyom
-  textInformation: "El padre del peque\xF1o Artyom era un gran y condecorado soldado
-    que tuvo que partir a la gran guerra de Novosibirsk a luchar en nombre de la
-    gran Patria Madre y defender el honor de su querido pueblo, dejando al peque\xF1o
-    solo. Vale decir que esa guerra nunca pas\xF3."
+  priceBaby: 50
+  timeWorkBaby: 8
+  textNameBaby: 'Andrey '
+  textInformation: "Ir por leche o cigarrillos al mercado es la jugada m\xE1s vieja
+    en el libro e incre\xEDblemente sigue funcionando. Y eso que lo digo por experiencia."

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9859bb492cd56b2448ce753c0d6f7cd9, type: 3}
+  m_Name: Baby 15
+  m_EditorClassIdentifier: 
+  spriteBaby: {fileID: 21300000, guid: 6b5a0319081b11a468ab43332ae710dd, type: 3}
+  priceBaby: 100
+  timeWorkBaby: 10
+  textNameBaby: Katya
+  textInformation: "Soy un tipo a la antigua, nunca me met\xED en todo esto de Internet
+    hasta hace poco, pero mis ojos han sido abiertos. Es incre\xEDble lo que uno
+    puede conseguir online si sabe d\xF3nde buscar y los precios no est\xE1n tan
+    mal tampoco."

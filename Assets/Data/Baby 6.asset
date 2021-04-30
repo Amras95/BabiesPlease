@@ -12,8 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9859bb492cd56b2448ce753c0d6f7cd9, type: 3}
   m_Name: Baby 6
   m_EditorClassIdentifier: 
-  spriteBaby: {fileID: 21300000, guid: 1e9e2365c4d12a74fa213081f349075d, type: 3}
-  priceBaby: 5
-  timeWorkBaby: 10
-  textNameBaby: Rusito
-  textInformation: Este bebe es jesucristo
+  spriteBaby: {fileID: 21300000, guid: ad3b2e9d55fb34d4f8064853fb33e243, type: 3}
+  priceBaby: 25
+  timeWorkBaby: 8
+  textNameBaby: 'Sergey '
+  textInformation: "Cuando uno est\xE1 en este rubro de trabajo debe estar listo
+    para todo, nunca sabes qui\xE9n puede estafarte o apu\xF1alarte por la espalda.
+    Imaginen mi sorpresa cuando la valija no estaba llena de droga, sino que ten\xEDa
+    a un ni\xF1o."

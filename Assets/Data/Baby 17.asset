@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9859bb492cd56b2448ce753c0d6f7cd9, type: 3}
+  m_Name: Baby 17
+  m_EditorClassIdentifier: 
+  spriteBaby: {fileID: 21300000, guid: 787648dbc2dbd9c41a35e7ac12b7ba97, type: 3}
+  priceBaby: 100
+  timeWorkBaby: 10
+  textNameBaby: Natasha
+  textInformation: "Tengo que ser honesto, nos metemos en problemas muy seguido,
+    muchas veces peligra nuestra vida mientras que trabajamos. Por eso, tenemos que
+    ser ingeniosos a la hora de escaparnos donde todo vale y yo soy un tipo inteligente
+    por eso s\xE9 que la polic\xEDa no me va a disparar si tengo un bebe de reh\xE9n.
+    El problema es que hacer con el despu\xE9s."

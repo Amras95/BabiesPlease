@@ -13,7 +13,17 @@ MonoBehaviour:
   m_Name: CycleBabies Principal
   m_EditorClassIdentifier: 
   dataBabies:
-  - {fileID: 11400000, guid: 68b9aafaf4383ab4fbf4f0e52b075b69, type: 2}
-  - {fileID: 11400000, guid: f568dde73e9e74c43bef1fbd28b7d33b, type: 2}
-  - {fileID: 11400000, guid: f568dde73e9e74c43bef1fbd28b7d33b, type: 2}
-  - {fileID: 11400000, guid: c1b49bb3a25a7b54198264c7f16b97c2, type: 2}
+  - {fileID: 11400000, guid: e270812182afbd3499d22099186d835f, type: 2}
+  - {fileID: 11400000, guid: ebac55f0a23365f468010773ba6a513d, type: 2}
+  - {fileID: 11400000, guid: 32914675854670d49be96fe717772e23, type: 2}
+  - {fileID: 11400000, guid: 1bae65f744e6370459f6a63dd1abe7a9, type: 2}
+  - {fileID: 11400000, guid: e71bd63862af38440a41f4ccd05ed6c5, type: 2}
+  - {fileID: 11400000, guid: 5b9dc978db8ef37459e844f1a50f6113, type: 2}
+  - {fileID: 11400000, guid: 9688cfc5f763a2642968d42e8e669427, type: 2}
+  - {fileID: 11400000, guid: 97c6aa5890d505a408436906d505f809, type: 2}
+  - {fileID: 11400000, guid: a13a74ba58941624694cf734702874eb, type: 2}
+  - {fileID: 11400000, guid: 2e40d131e9f701345abb64d15c9176e4, type: 2}
+  - {fileID: 11400000, guid: 841a8721c87ac6a4eb2241c753dff535, type: 2}
+  - {fileID: 11400000, guid: b3464fd3fe9fb5d4bb0340b3a6d39777, type: 2}
+  - {fileID: 11400000, guid: 70eab29b28b775943b2e6442716690be, type: 2}
+  - {fileID: 11400000, guid: 050764902d677b645a682cc601e3c866, type: 2}
