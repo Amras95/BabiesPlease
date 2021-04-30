@@ -13,6 +13,9 @@ public class UiStoreBabies : MonoBehaviour
     [SerializeField] TextMeshProUGUI textNameBaby;
     [SerializeField] TextMeshProUGUI textPriceBaby;
     [SerializeField] TextMeshProUGUI textInfoBaby;
+    [SerializeField] AudioSource audioSourceFailedPurchased;
+    [SerializeField] AudioSource audioSourceBuyBaby;
+    [SerializeField] AudioSource audioSourceBuyCollections;
 
     [Header("Collections")]
     [SerializeField] CollectionManager[] controlCollectionsMan;
@@ -59,16 +62,24 @@ public class UiStoreBabies : MonoBehaviour
 
             gameObjectStore.SetActive(false);
 
+            audioSourceBuyBaby.Play();
+
             if (ListBabies.Count <= 0)
             {
                 gameObjectButtonBuy.SetActive(false);
                 DesactiveControlBabyByIndex(m_lastIndex);
             }
-            else {
+            else
+            {
                 controlDataBaby[m_lastIndex].SetNewDataBaby(ListBabies[0]);
                 ListBabies.RemoveAt(0);
             }
         }
+        else {
+            gameObjectStore.SetActive(true);
+            audioSourceFailedPurchased.Play();
+        }
+
     }
 
     public void BuyNewItemCollection(int index) {
@@ -81,9 +92,14 @@ public class UiStoreBabies : MonoBehaviour
             ControlSlotInformation.Instance.ReturnToFactoryItemCollection(controlCollectionsMan[index].GetDataCollection());
 
             gameObjectStoreItems.SetActive(false);
+
+            audioSourceBuyCollections.Play();
             //buttonesControlCollections[index].SetActive(false);
 
             //print("Comprar el " + index);
+        }
+        else {
+            audioSourceFailedPurchased.Play();
         }
     }
 

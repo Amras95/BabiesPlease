@@ -19,6 +19,8 @@ public class ControlGame : MonoBehaviour
     [Header("Menu")]
     [SerializeField] GameObject gameObjectButtonChat;
     [SerializeField] GameObject gameObjectButtonMenu;
+    [SerializeField] AudioSource audioSourceLosts;
+    [SerializeField] AudioSource audioSourceWins;
 
     int indexCoinPayToSurvive = 0;
 
@@ -43,6 +45,7 @@ public class ControlGame : MonoBehaviour
         else {
             print("Estas bien muerto");
             chatManager.NewConversationLost();
+            audioSourceLosts.Play();
             TerminatedGame();
         }
 
@@ -51,6 +54,7 @@ public class ControlGame : MonoBehaviour
 
     public void WinTheGame() {
         TerminatedGame();
+        audioSourceWins.Play();
         print("Ganaste crack");
     }
 
