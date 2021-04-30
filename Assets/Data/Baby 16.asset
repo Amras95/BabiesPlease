@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9859bb492cd56b2448ce753c0d6f7cd9, type: 3}
+  m_Name: Baby 16
+  m_EditorClassIdentifier: 
+  spriteBaby: {fileID: 21300000, guid: 4023a5c7a1864334eb7f0816bbac7c90, type: 3}
+  priceBaby: 100
+  timeWorkBaby: 10
+  textNameBaby: Melanka
+  textInformation: "El vodka es casi tan importante como el agua, si no me creen
+    preg\xFAntele a cualquier ruso respetable, por eso solemos salir en grupo a disfrutarlo.
+    Pero por m\xE1s que me duela tengo que empezar a tener m\xE1s cuidado, no quiero
+    despertar devuelta en el ba\xFAl de un auto con un bebe en el asiento de atr\xE1s."

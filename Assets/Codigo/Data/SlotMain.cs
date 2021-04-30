@@ -79,10 +79,11 @@ public class SlotMain : MonoBehaviour
             if (timeActual >= m_lastTime + timeGeneration)
             {
                 m_lastTime = timeActual;
-                SliderTimeWork.value = 0;
+                SliderTimeWork.value = SliderTimeWork.maxValue;
                 NewRewardPrice();
             }
             else {
+                if (SliderTimeWork.maxValue == SliderTimeWork.value) SliderTimeWork.value = 0;
                 SliderTimeWork.value = SliderTimeWork.value + 1;
             }
         }

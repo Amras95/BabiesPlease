@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9859bb492cd56b2448ce753c0d6f7cd9, type: 3}
+  m_Name: Baby 14
+  m_EditorClassIdentifier: 
+  spriteBaby: {fileID: 21300000, guid: b1cc740a51b63b141aa8ab35cc12d11e, type: 3}
+  priceBaby: 100
+  timeWorkBaby: 10
+  textNameBaby: Sacha
+  textInformation: "La semana pasada estaba en mi sitio de emborracharme favorito
+    cuando un oso callejero apareci\xF3. Tuve que romper mi botella de vodka para
+    enfrentarlo. Escuche un peque\xF1o llanto desde dentro del oso mientras sacaba
+    su pelaje para una alfombra nueva. El peque\xF1ito estaba como nuevo dentro del
+    oso, se nota que la Madre Patria solo hace ni\xF1os fuertes."

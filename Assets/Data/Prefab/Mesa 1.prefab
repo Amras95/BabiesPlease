@@ -617,8 +617,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
+  m_Type: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -1205,7 +1205,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5392642376174732075}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: -103.71}
+  m_LocalPosition: {x: 0, y: 0, z: -59}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8387409490280219777}
@@ -1298,9 +1298,9 @@ ParticleSystem:
     enabled: 1
     startLifetime:
       serializedVersion: 2
-      minMaxState: 0
-      scalar: 1
-      minScalar: 5
+      minMaxState: 3
+      scalar: 0.8
+      minScalar: 0.3
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -1351,9 +1351,9 @@ ParticleSystem:
         m_RotationOrder: 4
     startSpeed:
       serializedVersion: 2
-      minMaxState: 0
-      scalar: 3
-      minScalar: 5
+      minMaxState: 3
+      scalar: 8
+      minScalar: 3
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -6770,7 +6770,7 @@ MonoBehaviour:
   particleSystemMoney: {fileID: 7740634401329943524}
   indexSlotMain: 0
   counSlotToUpgrade: 1
-  typeCollection: {fileID: 11400000, guid: 34080ec2a35243347a74e495bef69dd3, type: 2}
+  typeCollection: {fileID: 11400000, guid: b890aae2086b9dd43a8922d65ca2900c, type: 2}
   controlMenuSlot: {fileID: 0}
   ButtonUpgrade: {fileID: 5472034209196959916}
 --- !u!114 &119438862527798470

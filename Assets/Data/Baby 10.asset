@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9859bb492cd56b2448ce753c0d6f7cd9, type: 3}
-  m_Name: Baby 5
+  m_Name: Baby 10
   m_EditorClassIdentifier: 
   spriteBaby: {fileID: 21300000, guid: 13e65e6ce4a07794a88199e02dbe1a4a, type: 3}
-  priceBaby: 15
-  timeWorkBaby: 9
-  textNameBaby: 'Hijo de Dimitri '
-  textInformation: "Oh Dimitri, mi compa\xF1ero de la vida, cuando estabas en tu
-    lecho de muerte te promet\xED que cuidar\xEDa a tu familia como si fuera la m\xEDa.
-    Lo que nunca te dije que es que mi familia me cae fatal y que cuidar de un bebe
-    es complicado."
+  priceBaby: 100
+  timeWorkBaby: 7
+  textNameBaby: Nikolai
+  textInformation: "No somos siempre los malos de la historia, tambi\xE9n hacemos
+    nuestras buenas acciones como ir de vez en cuando a los orfanatos y adoptar a
+    los peque\xF1os que han sido abandonados. A veces pienso que tenemos corazones
+    de oro."

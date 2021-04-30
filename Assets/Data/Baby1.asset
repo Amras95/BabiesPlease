@@ -12,8 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9859bb492cd56b2448ce753c0d6f7cd9, type: 3}
   m_Name: Baby1
   m_EditorClassIdentifier: 
-  spriteBaby: {fileID: 21300000, guid: 1e9e2365c4d12a74fa213081f349075d, type: 3}
+  spriteBaby: {fileID: 21300000, guid: ad3b2e9d55fb34d4f8064853fb33e243, type: 3}
   priceBaby: 5
   timeWorkBaby: 10
-  textNameBaby: Chiquito
-  textInformation: Este bebe es jesucristo
+  textNameBaby: Nikita
+  textInformation: "Cuando uno est\xE1 en un bar y la est\xE1 pasando bien con sus
+    amigos no quiere irse. Tambi\xE9n hay que pagar con lo que tiene para seguir
+    pas\xE1ndola bien. Eso es lo que le paso al padre de Nikita que lo \xFAnico que
+    ten\xEDa a la mano era a su peque\xF1o hijo."

@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class ControlGame : MonoBehaviour
 {
     [SerializeField] ChatManager chatManager;
-    [SerializeField] int countCoinsToGetPlayerToSutrvive = 100;
+    [SerializeField] int[] countCoinsToGetPlayerToSutrvive;
+    [SerializeField] TextMeshProUGUI textScoreToPay;
 
     [Header("GameObjects")]
     [SerializeField] GameObject gameObjectFondoChat;
@@ -18,20 +20,23 @@ public class ControlGame : MonoBehaviour
     [SerializeField] GameObject gameObjectButtonChat;
     [SerializeField] GameObject gameObjectButtonMenu;
 
+    int indexCoinPayToSurvive = 0;
+
     void Start()
     {
         chatManager.IWin += WinTheGame;
+        textScoreToPay.text = countCoinsToGetPlayerToSutrvive[indexCoinPayToSurvive].ToString();
     }
 
     public void TheTerroristReturn() {
         print("Llegamos al limite de tiempo, cagaste");
-        if (ControlCoin.Instance.Coin >= countCoinsToGetPlayerToSutrvive)
+        if (ControlCoin.Instance.Coin >= countCoinsToGetPlayerToSutrvive[indexCoinPayToSurvive])
         {
-
-
             //data
-            ControlCoin.Instance.SetCoinSubstractValue(countCoinsToGetPlayerToSutrvive);
+            ControlCoin.Instance.SetCoinSubstractValue(countCoinsToGetPlayerToSutrvive[indexCoinPayToSurvive]);
 
+            if (indexCoinPayToSurvive < countCoinsToGetPlayerToSutrvive.Length - 1) indexCoinPayToSurvive++;
+            textScoreToPay.text = countCoinsToGetPlayerToSutrvive[indexCoinPayToSurvive].ToString();
             chatManager.NewConversation();
 
         }

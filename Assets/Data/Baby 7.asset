@@ -10,13 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9859bb492cd56b2448ce753c0d6f7cd9, type: 3}
-  m_Name: Baby 2
+  m_Name: Baby 7
   m_EditorClassIdentifier: 
   spriteBaby: {fileID: 21300000, guid: 3be1ef44b681d9544bd211dbfd1ca84f, type: 3}
-  priceBaby: 5
-  timeWorkBaby: 10
-  textNameBaby: Svetlana
-  textInformation: "Las peleas de gallos pueden ser bastante impredecibles porque
-    nunca se sabe que pueden hacer esos animales cuando se los llevan al extremo.
-    Eso fue lo que aprendi\xF3 la mama de Svetlana cuando perdi\xF3 a su hija apostando
-    a un gallo en racha."
+  priceBaby: 35
+  timeWorkBaby: 8
+  textNameBaby: Carlos
+  textInformation: "Uno no puede confiar en estos pandilleros mexicanos hoy en d\xEDa.
+    Miguel me dejo a su sobrino como prueba de que volver\xEDa con el dinero acordado.
+    El desgraciado me dejo esperando 2 horas."
