@@ -63,10 +63,10 @@ public class ControlSlotInformation : MonoBehaviour
         }
     }
 
-    public void LastSlotMainToNeedNewBaby(int index)
-    {
-        m_CantCountTimeInTheGame = true;
-        m_lastIndexSlotMainNeedBaby = index;
+    public void LastSlotMainToNeedNewBaby(int index) => m_lastIndexSlotMainNeedBaby = index;
+
+    public void ChangeGenerationTime(bool value) {
+        m_CantCountTimeInTheGame = value;
     }
 
     /*private void OnDisable()
@@ -87,6 +87,12 @@ public class ControlSlotInformation : MonoBehaviour
         for (int i = 0; i < newListDataBabies.Count && i < allSlotsMain.Length; i++) {
             allSlotsMain[i].SetNewDataBaby(newListDataBabies[i]);
         }*/
+    }
+
+    public void ReturnToFactoryItemCollection(TypeCollection typeCollection)
+    {
+        m_CantCountTimeInTheGame = false;
+        allSlotsMain[m_lastIndexSlotMainNeedBaby].SetNewDataCollection(typeCollection);
     }
 
     public float GetLevelByIndex(SlotMain typeSlotMain) =>

@@ -8,6 +8,7 @@ public class TypeCollection : ScriptableObject
     [SerializeField] Sprite spriteCollection;
     [SerializeField] string nameItemCollection = "";
     [SerializeField] int[] rewardCoinByItem;
+    [SerializeField] int coinToPuchasedItem = 15;
 
     public int GetRewardCoin(int index)
     {
@@ -20,7 +21,9 @@ public class TypeCollection : ScriptableObject
 
     public int GetMaxLevel() => rewardCoinByItem.Length-1;
 
+    public int GetCoinToPurchased() => coinToPuchasedItem;
+
     public string GetNameTypeCollection() => nameItemCollection;
 
-    public Sprite GetSpriteBaby() => spriteCollection;
+    public Sprite GetSpriteCollection() => spriteCollection;
 }

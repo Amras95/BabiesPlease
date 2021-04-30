@@ -6,34 +6,33 @@ using UnityEngine.UI;
 
 public class UiStoreBabies : MonoBehaviour
 {
+    [Header("Control data baby")]
     [SerializeField] ControlBaby[] controlDataBaby;
-    [SerializeField] bool[] BoolSaveDataBaby;
+    [SerializeField] CycleBabies cycleBabies;
     [SerializeField] Image imageBaby;
     [SerializeField] TextMeshProUGUI textNameBaby;
     [SerializeField] TextMeshProUGUI textPriceBaby;
     [SerializeField] TextMeshProUGUI textInfoBaby;
+
+    [Header("Collections")]
+    [SerializeField] CollectionManager[] controlCollectionsMan;
+    [SerializeField] GameObject[] buttonesControlCollections;
 
     [Header("Control UI store")]
     [SerializeField] TextMeshProUGUI textActualCoinPlayer;
     [SerializeField] GameObject gameObjectButtonBuy;
     [SerializeField] GameObject gameObjectFactory;
     [SerializeField] GameObject gameObjectStore;
+    [SerializeField] GameObject gameObjectStoreItems;
 
     int m_lastIndex = 0;
     DataBaby lastDataBaby = null;
+    List<DataBaby> ListBabies = new List<DataBaby>();
 
     // Start is called before the first frame update
     void Start()
     {
-
-        //verify which is purchased
-        BoolSaveDataBaby = ControlDataBetweenScenes.Instance.BoolSaveDataBaby;
-
-        for (int i = 0; i < controlDataBaby.Length; i++) {
-            if (BoolSaveDataBaby[i]) {
-                DesactiveControlBabyByIndex(i);
-            }
-        }
+        ListBabies = cycleBabies.GetListBabies();
     }
 
     public void ActivatedDescriptionWithIndex(int index) {
@@ -48,7 +47,7 @@ public class UiStoreBabies : MonoBehaviour
 
     }
 
-    public void BuyNewItem() {
+    public void BuyNewBabyPlayer() {
         if (lastDataBaby.GetPriceBaby() <= ControlCoin.Instance.Coin)
         {
             ControlCoin.Instance.SetCoinSubstractValue(lastDataBaby.GetPriceBaby());
@@ -60,12 +59,34 @@ public class UiStoreBabies : MonoBehaviour
 
             gameObjectStore.SetActive(false);
 
-
-            gameObjectButtonBuy.SetActive(false);
-            DesactiveControlBabyByIndex(m_lastIndex);
-            print("Comprar el " + m_lastIndex);
+            if (ListBabies.Count <= 0)
+            {
+                gameObjectButtonBuy.SetActive(false);
+                DesactiveControlBabyByIndex(m_lastIndex);
+            }
+            else {
+                controlDataBaby[m_lastIndex].SetNewDataBaby(ListBabies[0]);
+                ListBabies.RemoveAt(0);
+            }
         }
     }
+
+    public void BuyNewItemCollection(int index) {
+        if (controlCollectionsMan[index].GetDataCollection().GetCoinToPurchased() <= ControlCoin.Instance.Coin)
+        {
+            ControlCoin.Instance.SetCoinSubstractValue(controlCollectionsMan[index].GetDataCollection().GetCoinToPurchased());
+
+            gameObjectFactory.SetActive(true);
+
+            ControlSlotInformation.Instance.ReturnToFactoryItemCollection(controlCollectionsMan[index].GetDataCollection());
+
+            gameObjectStoreItems.SetActive(false);
+            //buttonesControlCollections[index].SetActive(false);
+
+            //print("Comprar el " + index);
+        }
+    }
+
 
     private void DesactiveControlBabyByIndex(int index) => controlDataBaby[index].gameObject.SetActive(false);
 }

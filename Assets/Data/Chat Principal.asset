@@ -30,12 +30,17 @@ MonoBehaviour:
     iba a ser algo de una vez nada m\xE1s?\r\nL: Osea, ten\xEDa esa esperanza.\r\nT:
     JAJAJAJAJAJAJAJAJAJAJAAJAJAJAJA.\r\nL: \u2026\r\nT: Ahhh, hombre de los videojuegos
     porque no intentas meterte a la comedia, tienes mucho futuro.\r\n"
-  - "T: Buenas tardes se\xF1or prisionero, \xBFC\xF3mo lo trata la vida en este maravilloso
-    d\xEDa?\r\nL: \xBFEnserio?\r\nT: Sipi sipi.\r\nL: He estado mejor, gracias.\r\nT:
-    No hace falta tener esa cara larga, hoy es el mejor d\xEDa de la semana: d\xEDa
-    de paga. No entiendo como puede alguien estar tan malhumorado en un d\xEDa tan
-    bello y lleno de vida como este.\r\nL: Por favor agarra los Putincoins y andate,
-    me est\xE1s dando escalofr\xEDos.\r\n"
-  - 
-  - 
-  - 
+  TextLost: "T: Me viste la cara. Te di la oportunidad de poder hacer algo grande
+    y la desperdiciaste. Siento que me escupiste en la cara. No me gusta la gente
+    que me escupe en la cara.\r\n\nL: Hice lo mejor que pude. Si me das unos d\xEDas
+    m\xE1s podr\xEDa terminar de pagarte.\r\n\nT: Adem\xE1s me tomas por est\xFApido.
+    Nunca nadie me hab\xEDa faltado el respeto tanto como vos. Preparate que en 15
+    minutos llegamos y la verdad no se si pueda asegurar tu bienestar f\xEDsico.\r\n\nL:
+    \u2026\r\n\nT: Nos vemos.\r\n"
+  TextWin: "T: Me viste la cara. Te di la oportunidad de poder hacer algo grande
+    y la desperdiciaste. Siento que me escupiste en la cara. No me gusta la gente
+    que me escupe en la cara.\r\nL: Hice lo mejor que pude. Si me das unos d\xEDas
+    m\xE1s podr\xEDa terminar de pagarte.\r\nT: Adem\xE1s me tomas por est\xFApido.
+    Nunca nadie me hab\xEDa faltado el respeto tanto como vos. Preparate que en 15
+    minutos llegamos y la verdad no se si pueda asegurar tu bienestar f\xEDsico.\r\nL:
+    \u2026\r\nT: Nos vemos.\r\n"

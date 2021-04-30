@@ -8,6 +8,7 @@ public class ViewScore : MonoBehaviour
     [Header("Control UI store")]
     [SerializeField] TextMeshProUGUI textActualCoinPlayerStore;
     [SerializeField] TextMeshProUGUI textActualCoinPlayerFactory;
+    [SerializeField] TextMeshProUGUI textActualCoinPlayerCollection;
 
     private void Start()
     {
@@ -19,5 +20,6 @@ public class ViewScore : MonoBehaviour
     {
         textActualCoinPlayerStore.text = coin.ToString();
         textActualCoinPlayerFactory.text = coin.ToString();
+        textActualCoinPlayerCollection.text = coin.ToString();
     }
 }

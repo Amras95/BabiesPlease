@@ -10,14 +10,24 @@ public class ControlBaby : MonoBehaviour
     [SerializeField] Image imageBaby;
     [SerializeField] TextMeshProUGUI textNameBaby;
     [SerializeField] TextMeshProUGUI textPriceBaby;
-
+    [SerializeField] TextMeshProUGUI textGenerationBySecondBaby;
 
     void Start()
     {
-        imageBaby.sprite = dataBaby.GetSpriteBaby();
-        textNameBaby.text = dataBaby.GetNameBaby();
-        textPriceBaby.text = dataBaby.GetPriceBaby().ToString();
+        UpdateUIWithInfoBaby();
     }
 
     public DataBaby GetDataBaby() => dataBaby;
+
+    public void SetNewDataBaby(DataBaby baby) {
+        dataBaby = baby;
+        UpdateUIWithInfoBaby();
+    }
+
+    private void UpdateUIWithInfoBaby() {
+        imageBaby.sprite = dataBaby.GetSpriteBaby();
+        textNameBaby.text = dataBaby.GetNameBaby();
+        textGenerationBySecondBaby.text = dataBaby.GetTimeWorkBaby().ToString() + "s";
+        textPriceBaby.text = dataBaby.GetPriceBaby().ToString();
+    }
 }

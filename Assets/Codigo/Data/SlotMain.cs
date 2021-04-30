@@ -14,26 +14,33 @@ public class SlotMain : MonoBehaviour
     [SerializeField] TextMeshProUGUI textActualValueGeneration;
     [SerializeField] TextMeshProUGUI textActualName;
     [SerializeField] Slider SliderTimeWork;
+    [SerializeField] ParticleSystem particleSystemMoney;
 
     [Header("Data")]
     [SerializeField] int indexSlotMain = 0;
     [SerializeField] int counSlotToUpgrade = 1;
     [SerializeField] TypeCollection typeCollection;
 
-
-
     [Header("Menu")]
     [SerializeField] GameObject controlMenuSlot = null;
+    [SerializeField] GameObject ButtonUpgrade = null;
 
     DataBaby dataBaby;
+    TypeCollection ActualTypeCollection;
     // private float generationBySecond = 0;
     private int m_lastTime = 0;
     private float timeGeneration = 0;
     private int m_levelActual = 0;
 
+    private void Awake()
+    {
+        ActualTypeCollection = typeCollection;
+    }
+
     void Start()
     {
         SetTimeGeneration();
+
         //generationBySecond = ControlSlotInformation.Instance.GetGenerationByIndex(this);
         if (DataBabyNotNull())
         {
@@ -44,23 +51,24 @@ public class SlotMain : MonoBehaviour
 
     public void OnTouchThisObject() {
         controlMenuSlot.SetActive(true);
+        ButtonUpgrade.SetActive(true);
     }
 
     public void UpgradeSlot()
     {
         if (DataBabyNotNull())
         {
-            if (ControlCoin.Instance.Coin > counSlotToUpgrade && m_levelActual < typeCollection.GetMaxLevel())
+            if (ControlCoin.Instance.Coin > counSlotToUpgrade && m_levelActual < ActualTypeCollection.GetMaxLevel())
             {
-                m_levelActual++;
                 ControlCoin.Instance.SetCoinSubstractValue(counSlotToUpgrade);
                 counSlotToUpgrade = counSlotToUpgrade * 2;
                 textActualValueToUpgrade.text = counSlotToUpgrade.ToString();
+
+                m_levelActual++;
                 UpdateTextInGenerationByWork();
-            }
-            else if (ControlCoin.Instance.Coin > counSlotToUpgrade && m_levelActual >= typeCollection.GetMaxLevel())
-            {
-                textActualValueToUpgrade.text = "Max";
+                if (m_levelActual >= ActualTypeCollection.GetMaxLevel()) {
+                    textActualValueToUpgrade.text = "Max";
+                }
             }
         }
     }
@@ -80,25 +88,37 @@ public class SlotMain : MonoBehaviour
         }
     }
 
-    public void SetNewDataCollection() {
-        m_levelActual = 0;
-        counSlotToUpgrade = 1;
-        UpdateTextInGenerationByWork();
+    public void SetNewDataCollection(TypeCollection newtypeCollection) {
+        ResetCollectionDataLevel();
+        ActualTypeCollection = newtypeCollection;
+
+        print(ActualTypeCollection.GetNameTypeCollection());
+        imageCollectionItemWork.sprite = ActualTypeCollection.GetSpriteCollection();
         //more things
     }
 
     public void SetNewDataBaby(DataBaby newData) {
         dataBaby = newData;
         imageBabyWork.sprite = newData.GetSpriteBaby();
-        imageCollectionItemWork.sprite = typeCollection.GetSpriteBaby();
+        imageCollectionItemWork.sprite = ActualTypeCollection.GetSpriteCollection();
         textActualName.text = newData.GetNameBaby();
         SetTimeGeneration();
-        print(dataBaby.name);
+
+        if (DataBabyNotNull())
+        {
+            if (ActualTypeCollection == null) {
+                print("El collection es null?");
+                ActualTypeCollection = typeCollection;
+            }
+            ResetCollectionDataLevel();
+            textActualValueToUpgrade.text = counSlotToUpgrade.ToString();
+        }
     }
 
     private void NewRewardPrice() {
         print("animation bien copada de que el collection sube");
-        ControlCoin.Instance.SetCoinAugmentValue(typeCollection.GetRewardCoin(m_levelActual));
+        particleSystemMoney.Play();
+        ControlCoin.Instance.SetCoinAugmentValue(ActualTypeCollection.GetRewardCoin(m_levelActual));
         UpdateTextInGenerationByWork();
     }
 
@@ -110,7 +130,13 @@ public class SlotMain : MonoBehaviour
         }
     }
 
+    private void ResetCollectionDataLevel() {
+        m_levelActual = 0;
+        counSlotToUpgrade = 1;
+        UpdateTextInGenerationByWork();
+    }
+
     private bool DataBabyNotNull() => dataBaby != null;
 
-    private void UpdateTextInGenerationByWork() => textActualValueGeneration.text = typeCollection.GetRewardCoin(m_levelActual).ToString();
+    private void UpdateTextInGenerationByWork() => textActualValueGeneration.text = ActualTypeCollection.GetRewardCoin(m_levelActual).ToString();
 }
