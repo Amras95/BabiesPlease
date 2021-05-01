@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteCollection: {fileID: 21300000, guid: 7059bb39142f769458bfdfa5bb97d8c5, type: 3}
   nameItemCollection: AK47
-  rewardCoinByItem: 23000000320000004b000000
+  rewardCoinByItem: 140000002300000032000000
   coinToPuchasedItem: 100
+  coinMultiplicator: 4

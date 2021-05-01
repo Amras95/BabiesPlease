@@ -16,3 +16,4 @@ MonoBehaviour:
   nameItemCollection: Martillo
   rewardCoinByItem: 07000000090000000d000000
   coinToPuchasedItem: 16
+  coinMultiplicator: 3

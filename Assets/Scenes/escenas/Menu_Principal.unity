@@ -2128,7 +2128,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Cr\xE9ditos\n\nMiguel Jes\xFAs\nSol\nMat\xEDas\nGian\nLautaro\nGabriel\nLucho\nMarta\nRoc\xEDo\n"
+  m_text: "Cr\xE9ditos\n\nMiguel Moreno\nSol\nMat\xEDas Badaloni\nGian Castro\nLautaro
+    Gomez\nGabriel\nLucho Ventura\nMarta\nRoc\xEDo Sosa\nDavid Toranzo"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

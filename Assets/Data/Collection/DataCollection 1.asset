@@ -16,3 +16,4 @@ MonoBehaviour:
   nameItemCollection: Explode
   rewardCoinByItem: 020000000300000005000000
   coinToPuchasedItem: 8
+  coinMultiplicator: 2

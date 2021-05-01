@@ -62,7 +62,7 @@ public class SlotMain : MonoBehaviour
             if (ControlCoin.Instance.Coin > counSlotToUpgrade && m_levelActual < ActualTypeCollection.GetMaxLevel())
             {
                 ControlCoin.Instance.SetCoinSubstractValue(counSlotToUpgrade);
-                counSlotToUpgrade = counSlotToUpgrade * 2;
+                counSlotToUpgrade = counSlotToUpgrade * ActualTypeCollection.coinMultiplicator;
                 textActualValueToUpgrade.text = counSlotToUpgrade.ToString();
 
                 m_levelActual++;

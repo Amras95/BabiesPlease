@@ -9,6 +9,7 @@ public class TypeCollection : ScriptableObject
     [SerializeField] string nameItemCollection = "";
     [SerializeField] int[] rewardCoinByItem;
     [SerializeField] int coinToPuchasedItem = 15;
+    [SerializeField] public int coinMultiplicator = 15;
 
     public int GetRewardCoin(int index)
     {
@@ -26,4 +27,6 @@ public class TypeCollection : ScriptableObject
     public string GetNameTypeCollection() => nameItemCollection;
 
     public Sprite GetSpriteCollection() => spriteCollection;
+
+    
 }
