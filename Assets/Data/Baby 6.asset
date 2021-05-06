@@ -16,7 +16,6 @@ MonoBehaviour:
   priceBaby: 25
   timeWorkBaby: 8
   textNameBaby: 'Sergey '
-  textInformation: "Cuando uno est\xE1 en este rubro de trabajo debe estar listo
-    para todo, nunca sabes qui\xE9n puede estafarte o apu\xF1alarte por la espalda.
-    Imaginen mi sorpresa cuando la valija no estaba llena de droga, sino que ten\xEDa
-    a un ni\xF1o."
+  textInformation: When you are in this line of work you have to be ready for anything,
+    you never know who might rip you off or stab you in the back. Imagine my surprise
+    when the suitcase was not full of drugs, but had a child in it.

@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteBaby: {fileID: 21300000, guid: 80ee472fd59f2f841a52a939f2958ef3, type: 3}
   priceBaby: 100
-  timeWorkBaby: 10
+  timeWorkBaby: 7
   textNameBaby: Yuri
-  textInformation: "Para los 18 de mi sobrino decid\xED darle algo que hab\xEDa estado
-    pidiendo desde hace mucho. Un 0km puede ser muy caro, pero tengo un amigo que
-    los vende usados y me hizo un muy buen precio por uno en especial porque se lo
-    quer\xEDa sacar de encima. Luego en el cumplea\xF1os de mi sobrino entend\xED
-    porque lo quer\xEDa vender tanto, el tanque venia con un bebe adentro. "
+  textInformation: 'For my nephew''s 18th birthday I decided to give him something
+    he had been asking for a long time. A 0km can be very expensive, but I have a
+    friend who sells them used and he gave me a very good price for one especially
+    because he wanted to get rid of it. Then on my nephew''s birthday I understood
+    why he wanted to sell it so badly, the tank came with a baby in it. '

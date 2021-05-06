@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteBaby: {fileID: 21300000, guid: 9518737ecb1518d4fab62bb8ad22e908, type: 3}
   priceBaby: 100
-  timeWorkBaby: 10
+  timeWorkBaby: 6
   textNameBaby: Pavel
-  textInformation: "Cuando empec\xE9 a trabajar ac\xE1 y me dijeron que si por alg\xFAn
-    motivo me sobraba un bebe, que lo traiga, me sorprend\xED y me opuse con mucha
-    seriedad. Meter a esto peque\xF1os en un mundo criminal me parec\xEDa incre\xEDblemente
-    malvado. Pero si no puedes contra ellos, \xFAneteles. As\xED que felicitaciones
-    Pavel por ser el bebe numero 100 que traigo."
+  textInformation: When I started working here and was told that if for some reason
+    I had a baby to spare, to bring it in, I was shocked and very seriously opposed.
+    Bringing these little ones into a criminal world seemed incredibly evil to me.
+    But if you can't fight them, join them. So congratulations Pavel on being the
+    100th baby I bring in.

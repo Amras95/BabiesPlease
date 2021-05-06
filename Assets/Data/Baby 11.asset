@@ -14,9 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteBaby: {fileID: 21300000, guid: 9518737ecb1518d4fab62bb8ad22e908, type: 3}
   priceBaby: 100
-  timeWorkBaby: 6
+  timeWorkBaby: 7
   textNameBaby: Oleg
-  textInformation: "Quien se puede olvidar del nuestro peque\xF1o amigo peludo, el
-    perro. Mi peque\xF1o Viper es el m\xE1s bonito, tierno y bueno de todos. Sobre
-    todo, despu\xE9s de que tire un palo para que lo busque y volvi\xF3 con este
-    ni\xF1o."
+  textInformation: Who can forget our little furry friend, the dog. My little Viper
+    is the cutest, cuddliest and kindest of them all. Especially, after he threw
+    a stick for me to look for him and came back with this little boy.

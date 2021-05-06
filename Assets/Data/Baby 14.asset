@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteBaby: {fileID: 21300000, guid: b1cc740a51b63b141aa8ab35cc12d11e, type: 3}
   priceBaby: 100
-  timeWorkBaby: 10
+  timeWorkBaby: 7
   textNameBaby: Sacha
-  textInformation: "La semana pasada estaba en mi sitio de emborracharme favorito
-    cuando un oso callejero apareci\xF3. Tuve que romper mi botella de vodka para
-    enfrentarlo. Escuche un peque\xF1o llanto desde dentro del oso mientras sacaba
-    su pelaje para una alfombra nueva. El peque\xF1ito estaba como nuevo dentro del
-    oso, se nota que la Madre Patria solo hace ni\xF1os fuertes."
+  textInformation: Last week I was at my favorite drinking spot when a stray bear
+    showed up. I had to break my bottle of vodka to confront it. I heard a little
+    cry from inside the bear as I was pulling its fur out for a new rug. The little
+    guy was good as new inside the bear, you can tell the Motherland only makes strong
+    children.

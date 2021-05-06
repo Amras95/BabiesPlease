@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteBaby: {fileID: 21300000, guid: 67b15dca548c409408607a7d22bb1e31, type: 3}
   priceBaby: 100
-  timeWorkBaby: 10
+  timeWorkBaby: 5
   textNameBaby: Payaso
-  textInformation: "Hasta las personas con apariencias alegres pueden tener vidas
-    complicadas y el mejor ejemplo es el payaso Pagliacci. Tuvo que vender todo para
-    poder mantener su peque\xF1o circo andante. Pobre tipo, perd\xEDa dinero por
-    todos lados. Un d\xEDa nos trajo este bebe para pagar sus deudas y se lo aceptamos
-    porque sus chistes siempre nos han hecho re\xEDr. Lo raro del peque\xF1o es que
-    por mas que intentemos, no le podemos sacar la pintura de payaso de la cara."
+  textInformation: Even people with cheerful appearances can have complicated lives
+    and the best example is Pagliacci the clown. He had to sell everything in order
+    to keep his little circus going. Poor guy, he was losing money everywhere. One
+    day he brought us this baby to pay his debts and we accepted him because his
+    jokes have always made us laugh. The weird thing about the little guy is that
+    no matter how hard we try, we can't get the clown paint off his face.

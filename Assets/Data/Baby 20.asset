@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteBaby: {fileID: 21300000, guid: 1e9e2365c4d12a74fa213081f349075d, type: 3}
   priceBaby: 100
-  timeWorkBaby: 10
+  timeWorkBaby: 6
   textNameBaby: Putin
-  textInformation: "Cuando tu pa\xEDs tiene al mejor l\xEDder que ha existido en
-    la historia de la humanidad es dif\xEDcil pensar en que un d\xEDa el no estar\xE1
-    con nosotros. Por eso la revolucionaria tecnolog\xEDa rusa le ha permitido tener
-    a cada familia un peque\xF1o Putin a su lado y es hora que tu tengas el tuyo."
+  textInformation: When your country has the best leader that has ever existed in
+    the history of mankind, it is hard to think that one day he will not be with
+    us. That's why revolutionary Russian technology has allowed every family to have
+    a little Putin by their side and it's time for you to have yours.

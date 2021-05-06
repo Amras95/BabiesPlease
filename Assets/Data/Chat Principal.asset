@@ -13,54 +13,78 @@ MonoBehaviour:
   m_Name: Chat Principal
   m_EditorClassIdentifier: 
   TextChats:
-  - "Terry Rista: Secuestrarte de esa est\xFApida conferencia de game design fue
-    tan f\xE1cil, nadie estaba mirando. Por lo que se de vos, crees que pod\xE9s
-    sobrevivir ac\xE1 solamente creando videojuegos. Ja, no me hagas re\xEDr. Tus
-    incre\xEDbles videojuegos no te salvaran en nuestro frio y desolado pa\xEDs.
-    Si queres recuperar tu libertad, vas a tener que pagar y solo hay una forma de
-    hacer dinero honrado y honesto en la Madre Patria, esclavitud infantil. As\xED
-    que anda al almac\xE9n y ll\xE9nanos de Putincoins y tal vez te dejemos ir.\r\nTu:
-    \xBFMe dejar\xEDas ir si te paso una key de Junior Solutions?\r\nTerry Rista:
-    Ja, sos tan gracioso hombre dise\xF1ador, ahora c\xE1llate y haznos llover Putincoins
-    antes de que llame a mis amigos."
-  - "Terry Rista: Veo que te has instalado y ya aprendiste a hacer Putincoins. Me
-    alegro mucho por ti y espero que nos podamos convertir en grandes amigos dentro
-    de las pr\xF3ximas semanas.\r\nTu: \xBFSemanas?\r\nTerry Rista: Por su puesto,
-    \xBFacaso cre\xEDste que esto iba a ser algo de una vez nada m\xE1s?\r\nTu: Osea,
-    ten\xEDa esa esperanza.\r\nTerry Rista: JAJAJAJAJAJAJAJAJAJAJAAJAJAJAJA.\r\nTu:
-    \u2026\r\nTerry Rista: Ahhh, hombre de los videojuegos porque no intentas meterte
-    a la comedia, tienes mucho futuro."
-  - "Terry Rista: Buenas tardes se\xF1or prisionero, \xBFC\xF3mo lo trata la vida
-    en este maravilloso d\xEDa?\r\nTu: \xBFEnserio?\r\nTerry Rista: Sipi sipi.\r\nTu:
-    He estado mejor, gracias.\r\nTerry Rista: No hace falta tener esa cara larga,
-    hoy es el mejor d\xEDa de la semana: d\xEDa de paga. No entiendo como puede alguien
-    estar tan malhumorado en un d\xEDa tan bello y lleno de vida como este.\r\nTu:
-    Por favor agarra los Putincoins y andate, me est\xE1s dando escalofr\xEDos."
-  - "Terry Rista: Entonces, \xBFestabas trabajando en un juego antes de todo esto?\r\nTu:
-    Si.\r\nTerry Rista: Y\u2026 \xBFde qu\xE9 era? \r\nTu: No puedo ir contando esas
-    cosas a cualquiera, es un secreto.\r\nTerry Rista: Porfis.\r\nTu: No.\r\nTerry
-    Rista: Dalee.\r\nTu: No insistas.\r\nTerry Rista: \u2639"
-  - "Tu: Bueno, ultima semana, casi termino con todo.\r\nTerry Rista: Han sido unos
-    meses interesantes.\r\nTu: Peculiares dir\xEDa yo.\r\nTerry Rista: Pero todav\xEDa
-    me tenes que pagar la ultima semana. \r\nTu: Si si ya se.\r\nTerry Rista: Voy
-    a extra\xF1arte\u2026 a menos que no pagues, sino pagas me vas a ver enojado.\r\nTu:
-    \xBFLa buena cara no te pudo durar un poco m\xE1s?"
-  TextLost: "Terry Rista: Me viste la cara. Te di la oportunidad de poder hacer algo
-    grande y la desperdiciaste. Siento que me escupiste en la cara. No me gusta la
-    gente que me escupe en la cara.\r\nTu: Hice lo mejor que pude. Si me das unos
-    d\xEDas m\xE1s podr\xEDa terminar de pagarte.\r\nTerry Rista: Adem\xE1s me tomas
-    por est\xFApido. Nunca nadie me hab\xEDa faltado el respeto tanto como vos. Preparate
-    que en 15 minutos llegamos y la verdad no se si pueda asegurar tu bienestar f\xEDsico.\r\nTu:
-    \u2026\r\nTerry Rista: Nos vemos."
-  TextWin: "Terry Rista: Bueno, creo que hasta ac\xE1 es donde nuestros caminos se
-    separan. Vivimos muchas cosas juntos a lo largo de estas 8 semanas. Muchos recuerdos,
-    muchas historias. Te voy a extra\xF1ar hombre de los videojuegos.\r\nTu: \xBFSabes
-    mi nombre al menos?\r\nTerry Rista: \xBFQu\xE9 importancia tienen los nombres
-    cuando una amistad es tan fuerte como esta, cuando supera todas las barreras?
-    Fuiste un gran trabajador, pero un mejor amigo.\r\nTu: \u2026\r\nTerry Rista:
-    Yo tampoco sabr\xEDa que decir. Me imagino las emociones que tenes que estar
-    experimentando. Tu silencio lo dice todo.\r\nTu: Bueno\u2026 ya me voy a ir yendo.
-    Cuidate y deja de apropiarte de bebes.\r\nTerry Rista: Cu\xEDdate vos hombre
-    dise\xF1ador, que tus proyectos te eleven m\xE1s alto que el ave f\xE9nix y llegues
-    m\xE1s lejos que cualquier persona haya podido en su vida. \r\nTu: Si, bueno.
-    Eso. Chau.\r\nTerry Rista: *Llora*"
+  - 'Terry Rista: Hijacking you from that stupid game design conference was so easy,
+    no one was watching. From what I know about you, you think you can survive here
+    just by creating video games. Ha, don''t make me laugh. Your amazing videogames
+    won''t save you in our cold and desolate country. If you want your freedom back,
+    you are going to have to pay and there is only one way to make honest money in
+    the Motherland, child slavery. So go to the store and fill us up with Putincoins
+    and maybe we''ll let you go.
+
+    You: Will you let me go if I hand you a Junior
+    Solutions key?
+
+    Terry Rista: Ha, you are so funny designer man, now shut
+    up and rain us Putincoins before I call my friends.'
+  - 'Terry Rista: I see you have settled in and already learned how to make Putincoins.
+    I''m very happy for you and hope we can become great friends within the next
+    few weeks.
+
+    You: Weeks?
+
+    Terry Rista: Of course, did you think this
+    was going to be a one time thing?
+
+    You: I mean, I had that hope.
+
+    Terry
+    Rista: HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA.
+
+    You:
+    ...
+
+    Terry Rista: Ahhh, video game man why don''t you try getting into comedy,
+    you have a lot of future.'
+  - 'Terry Rista: Good afternoon Mr. Prisoner, how is life treating you on this wonderful
+    day?
+
+    You: Really?
+
+    Terry Rista: Yep yep yep.
+
+    You: I''ve been
+    better, thank you.
+
+    Terry Rista: No need to have that long face, today is
+    the best day of the week: payday. I don''t understand how anyone can be so grumpy
+    on such a beautiful and full of life day like this.
+
+    You: Please take the
+    Putincoins and leave, you''re giving me the creeps.'
+  - "Terry Rista: So, you were working on a game before all this?\r\nYou: Yes.\r\nTerry
+    Rista: And... what was it about? \r\nYou: I can't go around telling that stuff
+    to just anyone, it's a secret.\r\nTerry Rista: Please.\r\nYou: No.\r\nTerry Rista:
+    Dalee.\r\nYou: Don't insist.\r\nTerry Rista: \u2639"
+  - "You: Well, last week, I'm almost done with everything.\r\nTerry Rista: It's
+    been an interesting few months.\r\nYou: Peculiar I would say.\r\nTerry Rista:
+    But you still have to pay me for the last week. \r\nYou: Yes, I know.\r\nTerry
+    Rista: I'm going to miss you... unless you don't pay, if you don't pay you're
+    going to see me angry.\r\nYou: Couldn't the good face have lasted a little longer?"
+  TextLost: "Terry Rista: You saw my face. I gave you a chance to be able to do something
+    great and you blew it. I feel like you spit in my face. I don't like people who
+    spit in my face.\r\nYou: I did the best I could. If you give me a few more days
+    I could finish paying you back.\r\nTerry Rista: Besides, you take me for a fool.
+    No one has ever disrespected me as much as you have. Get ready, we'll be there
+    in 15 minutes and I don't know if I can assure your physical well being.\r\nYou:
+    ...\r\nTerry Rista: See you.\r"
+  TextWin: "Terry Rista: Well, I think this is where our paths diverge. We experienced
+    a lot of things together over these 8 weeks. A lot of memories, a lot of stories.
+    I'm going to miss you video game man.\r\nYou: Do you even know my name?\r\nTerry
+    Rista: What do names matter when a friendship is as strong as this one, when
+    it overcomes all barriers? You were a hard worker, but a better friend.\r\nYou:
+    ...\r\nTerry Rista: I wouldn't know what to say either. I can imagine the emotions
+    you must be experiencing. Your silence says it all.\r\nYou: Well... I'm going
+    to go now. Take care of yourself and stop appropriating babies.\r\nTerry Rista:
+    Take care you designer man, may your projects lift you higher than the phoenix
+    and may you go further than anyone has ever been able to in their lives. \r\nYou:
+    Yeah, well. Terry: That. Bye.\r\nTerry Rista: *cry*\r"

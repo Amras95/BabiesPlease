@@ -16,7 +16,6 @@ MonoBehaviour:
   priceBaby: 5
   timeWorkBaby: 10
   textNameBaby: Svetlana
-  textInformation: "Las peleas de gallos pueden ser bastante impredecibles porque
-    nunca se sabe que pueden hacer esos animales cuando se los llevan al extremo.
-    Eso fue lo que aprendi\xF3 la mama de Svetlana cuando perdi\xF3 a su hija apostando
-    a un gallo en racha."
+  textInformation: Cockfighting can be quite unpredictable because you never know
+    what those animals can do when pushed to the extreme. That's what Svetlana's
+    mom learned when she lost her daughter betting on a rooster on a streak.

@@ -16,6 +16,6 @@ MonoBehaviour:
   priceBaby: 10
   timeWorkBaby: 9
   textNameBaby: Yekaterina
-  textInformation: "La vida est\xE1 llena de sorpresas, algunas lindas y otras no
-    tanto, pero lo que nadie puede saber qu\xE9 tipo de sorpresa fue Yekaterina cuando
-    apareci\xF3 una ma\xF1ana en nuestra entrada en una peque\xF1a cajita. "
+  textInformation: 'Life is full of surprises, some nice and some not so nice, but
+    what no one can know what kind of surprise Yekaterina was when she showed up
+    one morning in our driveway in a little box. '

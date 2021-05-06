@@ -14,9 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteBaby: {fileID: 21300000, guid: 6b5a0319081b11a468ab43332ae710dd, type: 3}
   priceBaby: 100
-  timeWorkBaby: 10
+  timeWorkBaby: 7
   textNameBaby: Katya
-  textInformation: "Soy un tipo a la antigua, nunca me met\xED en todo esto de Internet
-    hasta hace poco, pero mis ojos han sido abiertos. Es incre\xEDble lo que uno
-    puede conseguir online si sabe d\xF3nde buscar y los precios no est\xE1n tan
-    mal tampoco."
+  textInformation: I'm an old fashioned guy, I never got into this whole internet
+    thing until recently, but my eyes have been opened. It's amazing what you can
+    get online if you know where to look and the prices aren't too bad either.

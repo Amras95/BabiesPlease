@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteBaby: {fileID: 21300000, guid: 4023a5c7a1864334eb7f0816bbac7c90, type: 3}
   priceBaby: 100
-  timeWorkBaby: 10
+  timeWorkBaby: 7
   textNameBaby: Melanka
-  textInformation: "El vodka es casi tan importante como el agua, si no me creen
-    preg\xFAntele a cualquier ruso respetable, por eso solemos salir en grupo a disfrutarlo.
-    Pero por m\xE1s que me duela tengo que empezar a tener m\xE1s cuidado, no quiero
-    despertar devuelta en el ba\xFAl de un auto con un bebe en el asiento de atr\xE1s."
+  textInformation: Vodka is almost as important as water, if you don't believe me
+    ask any respectable Russian, that's why we usually go out in a group to enjoy
+    it. But as much as it pains me I have to start being more careful, I don't want
+    to wake up back in the trunk of a car with a baby in the back seat.
