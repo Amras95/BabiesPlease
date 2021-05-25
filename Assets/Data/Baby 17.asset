@@ -12,12 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9859bb492cd56b2448ce753c0d6f7cd9, type: 3}
   m_Name: Baby 17
   m_EditorClassIdentifier: 
-  spriteBaby: {fileID: 21300000, guid: 787648dbc2dbd9c41a35e7ac12b7ba97, type: 3}
+  spriteBaby: {fileID: 21300000, guid: 2c76b21f48a68c646b0b56a5de103370, type: 3}
   priceBaby: 100
-  timeWorkBaby: 10
-  textNameBaby: Natasha
-  textInformation: "Tengo que ser honesto, nos metemos en problemas muy seguido,
-    muchas veces peligra nuestra vida mientras que trabajamos. Por eso, tenemos que
-    ser ingeniosos a la hora de escaparnos donde todo vale y yo soy un tipo inteligente
-    por eso s\xE9 que la polic\xEDa no me va a disparar si tengo un bebe de reh\xE9n.
-    El problema es que hacer con el despu\xE9s."
+  timeWorkBaby: 5
+  textNameBaby: Vodka
+  textInformation: 

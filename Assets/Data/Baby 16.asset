@@ -12,11 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9859bb492cd56b2448ce753c0d6f7cd9, type: 3}
   m_Name: Baby 16
   m_EditorClassIdentifier: 
-  spriteBaby: {fileID: 21300000, guid: 4023a5c7a1864334eb7f0816bbac7c90, type: 3}
+  spriteBaby: {fileID: 21300000, guid: 37b33372f40603544aacecb740121a34, type: 3}
   priceBaby: 100
-  timeWorkBaby: 10
-  textNameBaby: Melanka
-  textInformation: "El vodka es casi tan importante como el agua, si no me creen
-    preg\xFAntele a cualquier ruso respetable, por eso solemos salir en grupo a disfrutarlo.
-    Pero por m\xE1s que me duela tengo que empezar a tener m\xE1s cuidado, no quiero
-    despertar devuelta en el ba\xFAl de un auto con un bebe en el asiento de atr\xE1s."
+  timeWorkBaby: 5
+  textNameBaby: Putkov
+  textInformation: 

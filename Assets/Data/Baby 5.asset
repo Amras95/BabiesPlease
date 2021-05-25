@@ -16,7 +16,4 @@ MonoBehaviour:
   priceBaby: 15
   timeWorkBaby: 9
   textNameBaby: 'Hijo de Dimitri '
-  textInformation: "Oh Dimitri, mi compa\xF1ero de la vida, cuando estabas en tu
-    lecho de muerte te promet\xED que cuidar\xEDa a tu familia como si fuera la m\xEDa.
-    Lo que nunca te dije que es que mi familia me cae fatal y que cuidar de un bebe
-    es complicado."
+  textInformation: 

@@ -12,11 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9859bb492cd56b2448ce753c0d6f7cd9, type: 3}
   m_Name: Baby 12
   m_EditorClassIdentifier: 
-  spriteBaby: {fileID: 21300000, guid: 02091b8c0d0bfd044b691decdd147977, type: 3}
+  spriteBaby: {fileID: 21300000, guid: 1e9e2365c4d12a74fa213081f349075d, type: 3}
   priceBaby: 100
-  timeWorkBaby: 10
-  textNameBaby: Mikhail
-  textInformation: "Tener un antro de apuestas tiene buenos momentos. Las bebidas
-    son gratis, alguien pierde mucho dinero o celebridades vienen a divertirse. Pero
-    lo mejor siempre va a ser buscar en el ba\xFAl de objetos perdidos y ver que
-    es lo que se uno encuentra."
+  timeWorkBaby: 5
+  textNameBaby: Putin
+  textInformation: 

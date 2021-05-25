@@ -12,12 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9859bb492cd56b2448ce753c0d6f7cd9, type: 3}
   m_Name: Baby 18
   m_EditorClassIdentifier: 
-  spriteBaby: {fileID: 21300000, guid: 9518737ecb1518d4fab62bb8ad22e908, type: 3}
+  spriteBaby: {fileID: 21300000, guid: 99fb7e4b9debebc44a532918e8c67809, type: 3}
   priceBaby: 100
-  timeWorkBaby: 10
-  textNameBaby: Pavel
-  textInformation: "Cuando empec\xE9 a trabajar ac\xE1 y me dijeron que si por alg\xFAn
-    motivo me sobraba un bebe, que lo traiga, me sorprend\xED y me opuse con mucha
-    seriedad. Meter a esto peque\xF1os en un mundo criminal me parec\xEDa incre\xEDblemente
-    malvado. Pero si no puedes contra ellos, \xFAneteles. As\xED que felicitaciones
-    Pavel por ser el bebe numero 100 que traigo."
+  timeWorkBaby: 5
+  textNameBaby: Stein
+  textInformation: 

@@ -12,11 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9859bb492cd56b2448ce753c0d6f7cd9, type: 3}
   m_Name: Baby 15
   m_EditorClassIdentifier: 
-  spriteBaby: {fileID: 21300000, guid: 6b5a0319081b11a468ab43332ae710dd, type: 3}
+  spriteBaby: {fileID: 21300000, guid: ad06e3bdfff201b49915719225db7fab, type: 3}
   priceBaby: 100
-  timeWorkBaby: 10
-  textNameBaby: Katya
-  textInformation: "Soy un tipo a la antigua, nunca me met\xED en todo esto de Internet
-    hasta hace poco, pero mis ojos han sido abiertos. Es incre\xEDble lo que uno
-    puede conseguir online si sabe d\xF3nde buscar y los precios no est\xE1n tan
-    mal tampoco."
+  timeWorkBaby: 5
+  textNameBaby: Luxia
+  textInformation: 

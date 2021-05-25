@@ -13,7 +13,6 @@ public class ControlTime : MonoBehaviour
     private float m_timeInTheGame = 0;
     private ControlGame controlGame;
 
-
     float m_time = 1;
     int m_indexTime = 0;
     int m_timeByTextPro = 0;
@@ -48,6 +47,8 @@ public class ControlTime : MonoBehaviour
                 m_timeByTextPro = _limiteTime[m_indexTime];
                 controlGame.TheTerroristReturn();
             }
+
+
         }
     }
 
@@ -56,4 +57,9 @@ public class ControlTime : MonoBehaviour
     }
 
     public int GetLimitTime() => _limiteTime[m_indexTime];
+
+    public void PauseTime()
+    {
+        m_startCount = false;
+    }
 }

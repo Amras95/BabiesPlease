@@ -16,7 +16,4 @@ MonoBehaviour:
   priceBaby: 5
   timeWorkBaby: 10
   textNameBaby: Nikita
-  textInformation: "Cuando uno est\xE1 en un bar y la est\xE1 pasando bien con sus
-    amigos no quiere irse. Tambi\xE9n hay que pagar con lo que tiene para seguir
-    pas\xE1ndola bien. Eso es lo que le paso al padre de Nikita que lo \xFAnico que
-    ten\xEDa a la mano era a su peque\xF1o hijo."
+  textInformation: 
